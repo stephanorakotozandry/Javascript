@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+}
+.d_flex{
+    display: flex;
+    justify-content: space-between;
+}

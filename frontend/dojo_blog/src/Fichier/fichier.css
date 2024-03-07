@@ -1,0 +1,171 @@
+
+.touteFichier{
+    display: flex;
+    width: 100%;
+    height: 130vh;
+}
+
+.fichier{
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 20px;
+    gap: 0.5rem;
+    border: 1px solid rgb(197, 197, 197);
+    
+}
+
+.imag{
+    margin: 10px 0 0 100px;
+    width: 150px;
+    height: 100px;
+    border: 1px solid rgb(158, 158, 158);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buutton{
+    display: flex;
+     align-items: center;
+     gap: 1rem;
+     margin-left: 95px;
+}
+.leftFichier{
+    flex: 0;
+    width: 30%;
+    margin: 0 0 0 20px;
+}
+.description{
+    flex: 1;
+    height: 130vh;
+    box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    right: 0;
+    width: 90%;
+    background-color: white;
+    padding: 10px;
+    border-left: 5px solid tomato;
+    overflow-y: visible;
+    margin-left: 20px;
+
+  .image{
+    height: 200px;
+    width: 200px;
+    border: none;
+    margin-left: 30px;
+    
+  }
+}
+
+
+
+.annonce{
+margin: 30px 0 0 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 200px;
+color: tomato;
+font-size: 13px;
+}
+.joursPostul{
+margin: 30px 0 0 0;
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-right: 160px;
+color: tomato;
+font-size: 13px;
+
+}
+.language{
+display: flex;
+flex-direction: column;
+padding: 10px;
+gap: 0.5rem;
+color: gray;
+}
+
+.service{
+margin: 10px 0 0 0; 
+padding: 10px;
+width: 99%;
+height: 34vh;
+background-color: blueviolet;
+
+.recruteur{
+    color: white;
+    width: 300px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 13px;
+    background-color: chocolate;
+ }
+
+.vertical{
+
+    width: 5px;
+    height: 13vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: chocolate;
+
+  
+}
+}
+.descrit{
+font-size: 13px;
+color: white;
+}
+
+.candidat{
+color: white;
+width: 300px;
+margin: 10px 0 0 0;
+height: 25px;
+display: flex;
+align-items: center;
+padding-left: 5px;
+font-size: 13px;
+background-color: rgb(137, 202, 40);   
+}
+.vertical1{
+width: 5px;
+height: 11vh;
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+background-color: rgb(137, 202, 40);
+}
+
+@media (max-width: 768px) {
+    .touteFichier{
+        display: block;
+        width: 100%;
+        height: 85vh;
+    }
+    .fichier{
+        flex: 1;
+        justify-content: center;
+        align-items: center;
+        width: 94%;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 0 20px;
+        gap: 0.5rem;
+        border: 1px solid rgb(197, 197, 197);
+        
+    }
+    .leftFichier{
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+.bodys{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    gap: 1rem;
+    width: 100%;
+    margin: auto;
+}
+
+@media (max-width:768px) {
+    .bodys{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 30px;
+        gap: 1rem;
+        width: 100%;
+        margin: auto;
+    }
+}

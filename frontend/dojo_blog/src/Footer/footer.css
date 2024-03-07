@@ -1,0 +1,94 @@
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: rgb(3, 3, 110);
+    color: white;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    
+
+    .rigth{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin: 30px 0 0 0;
+        gap: 1rem;
+
+        .techno{
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 13px;
+           
+        
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 0.5rem;
+            }
+            li{
+                list-style: none;
+                font-family: cursive;
+                color: white;
+            }
+        }
+      
+    }
+    .center{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        margin: 50px 0 0 0;
+
+        .autre{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            font-size: 13px;
+          
+            span{
+                font-family: cursive;
+            }
+        }
+    }
+    .left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin: 50px 0 0 0;
+        gap:1rem;
+        justify-content: center;
+        align-items: center;
+        .contact{
+            display: flex;
+            cursor: pointer;
+            align-items: center;
+            justify-content: space-between;
+            gap: 0.5rem;
+            flex-direction: column;
+            font-size: 12px;
+          span{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        
+        }
+    }
+}
+
+@media (max-width: 768px) {
+.footer .center{
+        display: none;
+    }
+}

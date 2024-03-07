@@ -1,0 +1,238 @@
+.login{
+   display: flex;
+    width: 90%;
+    height: 130vh;
+    background-color:rgb(247, 247, 247);
+.pading{
+    display: flex;
+    padding: 30px;
+    width: 100%;
+    
+}
+    .loginRigth{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        margin: 100px 0 0 10px;
+        gap: 1rem;
+        
+.connecta{
+  position: relative;
+  bottom: 50px;
+  font-weight: bold;
+}
+.log{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.affichage{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.buttonlog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+        input{
+            width: 250px;
+            height: 35px;
+            padding-left: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid grey;
+            color: gray;
+        }
+
+        input:focus{
+            outline: none;
+        }
+    }
+   
+
+    .inscription{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        margin-left: 30%;
+        align-items: center;
+        width: 80%;
+        border: 1px solid gray;
+        height: 70vh;
+        padding: 20px;
+        gap: 0.5rem;
+ 
+        
+
+        input{
+            width: 250px;
+            height: 35px;
+            padding-left: 10px;
+            font-size: 14px;
+            border-radius: 5px;
+            border: 1px solid grey;
+            color: gray;
+            margin: 20px 0 0 0 ;
+        }
+
+        input:focus{
+            outline: none;
+        }
+    }
+
+    .description{
+        flex: 1;
+        margin-left: 30%;
+        height: 130vh;
+        box-shadow: 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+        right: 0;
+        width: 30%;
+        background-color: white;
+        padding: 10px;
+        border-left: 5px solid tomato;
+        overflow-y: visible;
+
+      .image{
+        height: 200px;
+        width: 200px;
+        border: none;
+        margin-left: 30px;
+        
+      }
+    }
+
+}
+
+.annonce{
+    margin: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 200px;
+    color: tomato;
+    font-size: 13px;
+}
+.joursPostul{
+    margin: 30px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 160px;
+    color: tomato;
+    font-size: 13px;
+    
+}
+ .language{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 0.5rem;
+    color: gray;
+ }
+
+ .service{
+    margin: 10px 0 0 0; 
+    padding: 10px;
+    width: 99%;
+    height: 36vh;
+    background-color: blueviolet;
+
+    .recruteur{
+        color: white;
+        width: 300px;
+        height: 25px;
+        display: flex;
+        align-items: center;
+        padding-left: 5px;
+        font-size: 13px;
+        background-color: chocolate;
+     }
+
+.vertical{
+  
+        width: 5px;
+        height: 13vh;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+        background-color: chocolate;
+
+      
+}
+ }
+ .descrit{
+    font-size: 13px;
+    color: white;
+   }
+
+.candidat{
+    color: white;
+    width: 300px;
+    margin: 10px 0 0 0;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 13px;
+    background-color: rgb(137, 202, 40);   
+}
+.vertical1{
+    width: 5px;
+    height: 11vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    background-color: rgb(137, 202, 40);
+}
+
+@media (max-width: 768px) {
+    .login{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+
+        .pading{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            gap: 1rem;
+        }
+        .loginRigth{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px;
+            margin: 60px 0 0 10px;
+            
+            
+    .connecta{
+      position: relative;
+      bottom: 40px;
+      font-weight: bold;
+    }
+}
+.inscription{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+    align-items: center;
+    width: 80%;
+    border: 1px solid gray;
+    height: 70vh;
+    padding: 20px;
+    gap: 0.5rem;
+}
+        .description {
+        display: none;
+    }
+    }
+
+   
+    
+}

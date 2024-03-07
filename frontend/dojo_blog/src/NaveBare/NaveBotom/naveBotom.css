@@ -1,0 +1,117 @@
+.navebotom{
+    display: flex;
+    height: 5vw;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    position: sticky;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+.left{
+    flex: 1.5;
+    margin-left: 40px;
+}
+
+.rigth{
+    flex: 0.6;
+    display: flex;
+}
+.rigth ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+.rigth ul li{
+    list-style-type: none;
+    cursor: pointer;
+    color: gray;
+    font-weight: bold;
+    position: relative;
+}
+.rigth ul li::before{
+    position: absolute;
+    width: 0;
+    background-color: blue;
+    content: "";
+    top: -10px;
+    transform: translateX(-50%);
+    left: 50%;
+    height: 3px;
+    transition: all 0.3s ease-in-out;
+}
+.rigth ul li:hover:before{
+    width: 100%;
+}
+
+.open,.close{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .navebotom{
+        display: flex;
+        height: 10vh;
+        width: 100%;
+        padding: 10px;
+        background-color: white;
+        position: sticky;
+        z-index: 999;
+        box-shadow: 0px 7px 7px 0px rgba(0, 0, 0, 0.2);
+    }
+    .rigth ul li::before{
+        display: none;
+      }
+   .navebotom .nonresponsive{
+        display: none;
+    }
+    .navebotom .responsive{
+        position: absolute;
+        left: 0;
+        top: 0;
+        box-shadow: 2px 7px 7px 8px rgba(0, 0, 0, 0.2);
+        width: 60%;
+        height: 100vh;
+        background-color: white;
+        z-index: 888;
+        display: flex;
+        flex-direction: column;
+        transition: all 3s ease-in-out;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            padding: 20px;
+            justify-content: space-between;
+        }
+        ul li{
+            font-size: 14px;
+        }
+
+        ul li:hover{
+            background-color: blue;
+            height: 30px;
+            width: 200px;
+            color: white;
+            text-transform: uppercase;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 5px;
+        }
+    }
+
+  
+  .close,  .open{
+        display: block;
+        margin-left: 100px;
+        cursor: pointer;
+        font-size: 40px;
+        color: gray;
+    }
+  
+}
